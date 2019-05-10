@@ -8,7 +8,7 @@
         <version>2.1.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.zlead</groupId>aop
+    <groupId>com.zlead</groupId>
     <artifactId>acm-config</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>acm-config</name>
@@ -37,11 +37,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.16.16</version>
         </dependency>
 
         <dependency>

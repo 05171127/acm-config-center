@@ -24,7 +24,7 @@ import java.util.Enumeration;
 public class WebLogAspect {
     private static final Logger logger = LoggerFactory.getLogger(WebLogAspect.class);
 
-    @Pointcut("execution(public * com.example.demo.controller.*.*(..))")
+    @Pointcut("execution(public * com.zlead.acmconfig.controller.*.*(..))")
     public void webLog() {
     }
 
